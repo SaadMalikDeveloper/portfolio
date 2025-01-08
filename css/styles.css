@@ -4428,6 +4428,20 @@ ul.listing-content {
   .ss-go-top {
     right: calc(var(--gutter) / 2 - var(--vspace-0_25));
   }
+  ul.listing-content {
+    columns: 1;
+  }
+
+  .s-intro__content-title {
+    font-size: 26px;
+  }
+
+  .column.lg-12.s-intro__content-inner.grid-block.grid-16 {
+    margin-top: 65px;
+  }
+  .s-intro__content-title span {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 600px) {
